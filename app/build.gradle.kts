@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.9.4")
 
     // Compose BOM y componentes
     implementation(platform(libs.androidx.compose.bom))
