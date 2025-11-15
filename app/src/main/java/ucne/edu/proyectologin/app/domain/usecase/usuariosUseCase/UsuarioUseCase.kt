@@ -1,0 +1,13 @@
+package ucne.edu.proyectologin.app.domain.usecase.usuariosUseCase
+
+
+
+
+import javax.inject.Inject
+
+data class UsuariosUseCase @Inject constructor(
+    val validarUsuario: ValidarUsuariouseCase,
+    val guardarUsuario: GuardarUsuariouseCase,
+    val obtenerUsuario: ObtenerUsuarioUseCase,
+    val obtenerUsuarios: ObtenerUsuariosUseCase
+)
